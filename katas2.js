@@ -12,8 +12,8 @@ function add(x, y) {
 // comece a criar a sua função multiply na linha abaixo
 function multiply(x, y) {
     let sumMultiply = 0
-    for(let i = 1; i <= y; i++) {
-        sumMultiply += add(x, 0)
+    for(let i = 1; i <= x; i++) {
+        sumMultiply = add(sumMultiply, y)
      }
      return sumMultiply
     }
@@ -62,7 +62,7 @@ function fibonacci(n) {
     for(let i = 0; i <= n; i++) {
         index[i] = x
         index[++i] = y
-        x += y
+        x = add(x, y) 
         y = add(x, y)
 
 
