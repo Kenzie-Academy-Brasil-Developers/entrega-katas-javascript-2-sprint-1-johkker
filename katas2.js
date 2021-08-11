@@ -61,7 +61,8 @@ function fibonacci(n) {
     
     for(let i = 0; i <= n; i++) {
         index[i] = x
-        index[++i] = y
+        i = add(i, 1)
+        index[i] = y
         x = add(x, y) 
         y = add(x, y)
 
