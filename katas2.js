@@ -19,7 +19,7 @@ function add(x, y) {
 // comece a criar a sua função multiply na linha abaixo
 function multiply(x, y) {
     let sumMultiply = 0
-    for(let i = 1; i <= x; i = add(i, 1) {
+    for(let i = 1; i <= x; i = add(i, 1)) {
         sumMultiply = add(sumMultiply, y)
      }
      return sumMultiply
@@ -31,7 +31,7 @@ console.assert(multiply(4, 6) === 24, 'A função multiply não está funcionand
 // comece a criar a sua função power na linha abaixo
 function power(x, n) {
     let multiplicador = x
-    for(i = 2; i <= n; i = add(i, 1) {
+    for(i = 2; i <= n; i = add(i, 1)) {
         multiplicador = multiply(x, multiplicador)
     
         
@@ -46,7 +46,7 @@ function power(x, n) {
 // comece a criar a sua função factorial na linha abaixo
 function factorial(x) {
     sumFactorial = x
-    for(let i = x-1; i >= 1; i = minus(i, 1) {
+    for(let i = x-1; i >= 1; i = minus(i, 1)) {
         sumFactorial = multiply(sumFactorial, i)
     }
     return sumFactorial
@@ -66,7 +66,7 @@ function fibonacci(n) {
     let x = 0
     let y = 1
     
-    for(let i = 0; i <= n; i = add(i, 1) {
+    for(let i = 0; i <= n; i = add(i, 1)) {
         index[i] = x
         i = add(i, 1)
         index[i] = y
